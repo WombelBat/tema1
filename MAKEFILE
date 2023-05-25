@@ -1,0 +1,4 @@
+build:
+    gcc prog.c teams.c games.c -o lanParty
+clean:
+    del /f lanParty.exe
